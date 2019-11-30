@@ -1,0 +1,25 @@
+.social-area {
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  &__list li {
+    list-style-type: none;
+    margin: 10px;
+  }
+  &__list li a {
+    color: grey;
+  }
+
+  &__list li a:hover {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+}
+

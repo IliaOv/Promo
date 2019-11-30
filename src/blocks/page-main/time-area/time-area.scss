@@ -1,0 +1,33 @@
+.time-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  &__hours,
+  &__minutes,
+  &__seconds {
+    margin-right: 40px;
+    margin-bottom: 10px;
+  }
+
+  &__number {
+    font-size: 100px;
+    font-weight: bold;
+    height: 100px;
+    @media (max-width: 700px) {
+      font-size: 70px;
+    }
+    @media (max-width: 500px) {
+      font-size: 20px;
+      height: 20px;
+    }
+  }
+
+  &__text {
+    font-size: 20px;
+    color: grey;
+    @media (max-width: 500px) {
+      font-size: 12px;
+    }
+    }
+}

@@ -1,0 +1,13 @@
+.page-footer {
+  position: absolute;
+  width: 45%;
+  margin-left: 40%;
+  padding: 20px 0 0 120px;
+  @media (max-width: 820px) {
+    width: 80%;
+    margin: 0;
+  }
+  @media (max-width: 500px) {
+    padding-left: 20px;
+  }
+  }
